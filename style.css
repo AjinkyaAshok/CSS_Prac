@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.main-div {
+  background-color: aliceblue;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-div {
+  width: 600px;
+  height: 300px;
+  position: relative;
+  background: linear-gradient(to right top, #52b6fe, #8a82e9);
+  box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
+  -webkit-box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
+  -moz-box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
+  border-radius: 20px;
+  padding: 30px;
+  z-index: 1;
+}
+
+.container-div::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 600px;
+  height: 300px;
+  border-radius: 20px;
+  z-index: -1;
+  clip-path: polygon(
+    50% 0%,
+    100% 0,
+    100% 43%,
+    100% 100%,
+    75% 84%,
+    65% 57%,
+    39% 45%,
+    25% 19%,
+    0 0
+  );
+
+  background: rgb(238, 174, 202);
+  background: linear-gradient(
+    90deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-size: 3.5em;
+}
+.header h2 {
+  letter-spacing: 2px;
+}
+
+.footer {
+  padding: 0 20px;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  margin-top: 100px;
+  line-height: 1.5;
+}
+
+.footer h2 {
+  font-size: 26px;
+  letter-spacing: 1.5px;
+  font-weight: 100;
+}
+
+.footer p {
+  font-size: 1.5em;
+  font-weight: 900;
+}
