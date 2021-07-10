@@ -18,9 +18,9 @@
   height: 300px;
   position: relative;
   background: linear-gradient(to right top, #52b6fe, #8a82e9);
-  box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
-  -webkit-box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
-  -moz-box-shadow: 8px 9px 5px 1px rgba(99, 98, 98, 0.15);
+  -webkit-box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
   border-radius: 20px;
   padding: 30px;
   z-index: 1;
