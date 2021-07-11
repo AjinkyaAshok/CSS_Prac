@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+.center_div {
+  background-color: #eeeeee;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.insta_ui {
+  width: 360px;
+  height: 705px;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 10px;
+  -webkit-box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
+  -moz-box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
+  box-shadow: 7px 10px 10px -4px rgba(0, 0, 0, 0.38);
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.setting img {
+  width: 30px;
+  padding: 5px;
+  margin: 5px;
+}
+
+.setting h2 {
+  flex: 1;
+}
+
+.profile {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.profile img {
+  width: 90px;
+  border-radius: 50%;
+}
+
+.profile p {
+  margin: 2px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.profile p span {
+  display: flex;
+  font-size: 15px;
+  font-weight: 100;
+}
+
+.follower {
+  margin-bottom: 15px;
+  margin-left: 4px;
+}
+
+.follower p {
+  margin-top: 4px;
+  font-size: 12px;
+}
+
+.button1 {
+  width: 330px;
+  height: 32px;
+  border: 1px solid rgb(209, 209, 209);
+  background-color: #ffff;
+  border-radius: 5px;
+  margin-bottom: 12px;
+}
+
+.button1 span p {
+  font-weight: 600;
+}
+
+.story {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.story img {
+  width: 65px;
+  border-radius: 50%;
+  border: 1px solid rgb(158, 158, 158);
+  padding: 10px;
+}
+
+.story_name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.story_name p {
+  margin: 0 28px;
+  font-size: 14px;
+}
+
+.grid_option {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.grid_option img {
+  width: 20px;
+}
+
+.border-bottom {
+  margin-top: 10px;
+  border: 1.5px solid rgb(209, 209, 209);
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 33%,
+    rgba(217, 220, 220, 1) 32%,
+    rgba(217, 220, 220, 1) 59%
+  );
+}
+
+.posts {
+  width: 330px;
+  height: 230px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 60px;
+}
+
+.posts img {
+  height: 140px;
+  width: 100px;
+  padding: 5px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+}
+
+#user_photo {
+  border-radius: 50%;
+}
+
+.footer img {
+  width: 23px;
+}
